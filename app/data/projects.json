@@ -1,0 +1,50 @@
+[
+  {
+    "title": "uCAP",
+    "shortDescription": "A Web App for Class Records and Course Outcome Assessments.",
+    "detailedDescription": [
+      "uCAP, or University Course Assessment Portal, is a web application that integrates class records with Course Outcome Assessments (COA) into a single platform, featuring NLP-driven CO–PO mapping as decision support for faculty. It is designed primarily for USTP faculty who face challenges managing class records and COAs across separate spreadsheets and manual data transfers.",
+      "My main responsibilities for this project included front-end development, back-end development, and database design. I designed a user-friendly interface tailored for faculty, aligned with USTP branding and colors. I also designed and implemented RESTful APIs to serve the frontend, and handled data serialization and business logic for six distinct user roles. Additionally, I worked on database design and implemented a PDF data extraction feature to automatically retrieve Course Outcomes (COs) from course syllabi. Since the project involves heavy data processing, I optimized queries, requests, and responses across both the frontend and backend to ensure overall responsiveness. My roles overlapped across these areas to support the successful completion of the capstone project.",
+      "Here is the Tech Stack used in this project:"
+    ],
+    "techStack": [
+      "React.js with Vite",
+      "Tailwind CSS",
+      "Typescript",
+      "Django",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "githubLink": "https://github.com/Zeck3/UCAP",
+    "figmaLink": "https://www.figma.com/design/H4DeFbtfatFR35d2ssLNAJ/UCAP-Design-System?node-id=0-1&p=f&t=nDQtr6JBdN7NIRlX-0",
+    "siteLink": null,
+    "images": [
+      "/images/ucap_image_1.png",
+      "/images/ucap_image_2.png",
+      "/images/ucap_image_3.png"
+    ]
+  },
+  {
+    "title": "uTrace",
+    "shortDescription": "A Mobile App for Campus Navigation.",
+    "detailedDescription": [
+      "uTrace, or University Trace, is a mobile application for campus navigation designed primarily for students, personnel, and visitors, who are unfamiliar with building routes and locations. It addresses the common problem of having to ask others for directions and getting confused in the way.",
+      "My main responsibilities for this project include front-end development and designing an intuitive, user-friendly interface for the mobile application, featuring a custom map design aligned with USTP branding and colors. I successfully integrated free map APIs, such as Leaflet.js, into the application and implemented geolocation and pathfinding functionality.",
+      "Here is the Tech Stack used in this project:"
+    ],
+    "techStack": [
+      "Expo React Native",
+      "CSS",
+      "TypeScript",
+      "Firebase Firestore"
+    ],
+    "githubLink": "https://github.com/jestoniandales25/uTrace",
+    "figmaLink": "https://www.figma.com/design/r0fSUoF4juV0EP3Wi04QTF/uTrace-Design-System?node-id=0-1&p=f&t=JbsTIIlzWiL1UHxN-0",
+    "siteLink": null,
+    "images": [
+      "/images/utrace_image_1.png",
+      "/images/utrace_image_2.png",
+      "/images/utrace_image_3.png"
+    ]
+  }
+]
