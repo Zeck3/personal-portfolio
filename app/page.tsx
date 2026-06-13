@@ -20,68 +20,75 @@ export default function Main() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-[#0D0D16] text-white">
-      <header
-        className={`h-48 flex flex-col justify-end transition-all duration-300 ease-in-out
-    ${aboutOpen || projectsOpen || specifiedProjectOpen ? "px-16" : "md:px-64 md:pr-0 px-16"}`}
-      >
-        <button
-          className="flex flex-col items-start w-xs hover:cursor-pointer hover:bg-[#cc5456]"
-          onClick={() => {
-            setAboutOpen(false);
-            setProjectsOpen(false);
-            setSpecifiedProjectOpen(false);
-          }}
-        >
-          <h1 className="text-5xl font-medium">Neil Dinglasa</h1>
-          <h2 className="text-3xl">Developer & Designer</h2>
-        </button>
-      </header>
+    <div className="flex flex-col h-screen bg-[#08080c] text-[#F8F8F8]">
+      <div className="relative flex flex-col flex-1 overflow-hidden">
+        
+        <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
+          <div className="grid-bg w-full h-full" />
+        </div>
 
-      <main
-        className={`flex-1 transition-all duration-300 ease-in-out ${
-          aboutOpen || projectsOpen || specifiedProjectOpen
-            ? "px-16"
-            : "md:px-64 md:pr-0 px-16"
-        }`}
-      >
-        <div className="flex flex-col mt-24 gap-16">
+        <header
+          className={`h-48 flex flex-col justify-end transition-all duration-300 ease-in-out
+          ${aboutOpen || projectsOpen || specifiedProjectOpen ? "px-16" : "md:px-64 md:pr-0 px-16"}`}
+        >
           <button
-            className={`text-3xl text-left w-xs hover:cursor-pointer hover:bg-[#cc5456] ${
-              aboutOpen ? "bg-[#cc5456]" : ""
-            }`}
+            className="flex flex-col items-start w-xs hover:cursor-pointer hover:bg-[#E05D5D]"
             onClick={() => {
-              setAboutOpen(true);
+              setAboutOpen(false);
               setProjectsOpen(false);
               setSpecifiedProjectOpen(false);
             }}
           >
-            | About Me
+            <h1 className="text-5xl font-medium">Neil Dinglasa</h1>
+            <h2 className="text-3xl text-[#B2B8C2]">UI/UX Designer</h2>
           </button>
+        </header>
 
-          <button
-            className={`text-3xl text-left w-xs hover:cursor-pointer hover:bg-[#cc5456] ${
-              projectsOpen ? "bg-[#cc5456]" : ""
-            }`}
-            onClick={() => {
-              setProjectsOpen(true);
-              setAboutOpen(false);
-              setSpecifiedProjectOpen(false);
-            }}
-          >
-            | Projects
-          </button>
-        </div>
-      </main>
+        <main
+          className={`flex-1 transition-all duration-300 ease-in-out ${
+            aboutOpen || projectsOpen || specifiedProjectOpen
+              ? "px-16"
+              : "md:px-64 md:pr-0 px-16"
+          }`}
+        >
+          <div className="flex flex-col mt-24 gap-16">
+            <button
+              className={`text-3xl text-left w-xs hover:cursor-pointer hover:bg-[#E05D5D] ${
+                aboutOpen ? "bg-[#E05D5D]" : ""
+              }`}
+              onClick={() => {
+                setAboutOpen(true);
+                setProjectsOpen(false);
+                setSpecifiedProjectOpen(false);
+              }}
+            >
+              | About Me
+            </button>
+
+            <button
+              className={`text-3xl text-left w-xs hover:cursor-pointer hover:bg-[#E05D5D] ${
+                projectsOpen ? "bg-[#E05D5D]" : ""
+              }`}
+              onClick={() => {
+                setProjectsOpen(true);
+                setAboutOpen(false);
+                setSpecifiedProjectOpen(false);
+              }}
+            >
+              | Projects
+            </button>
+          </div>
+        </main>
+      </div>
 
       <footer
-        className={`h-32 lg:h-48 flex flex-col justify-center bg-[#14141E] transition-all duration-300 ease-in-out ${
+        className={`h-32 lg:h-48 flex flex-col justify-center bg-[#0d0d11] transition-all duration-300 ease-in-out ${
           aboutOpen || projectsOpen || specifiedProjectOpen
             ? "px-16"
             : "md:px-64 md:pr-0 px-16"
         }`}
       >
-        <p className="text-2xl">© 2026 Neil Dinglasa</p>
+        <p className="text-2xl text-[#B2B8C2]">© 2026 Neil Dinglasa</p>
       </footer>
 
       <SidePanel
@@ -105,7 +112,6 @@ export default function Main() {
         <ProjectsContent
           projects={projects}
           handleCardClick={handleCardClick}
-
         />
       </SidePanel>
 

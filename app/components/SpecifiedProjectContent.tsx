@@ -60,11 +60,11 @@ export default function SpecifiedProjectContent({
   return (
     <>
       {selectedProject.images && selectedProject.images.length > 0 && (
-        <div className="relative w-full">
+        <div key={selectedProject.title} className="relative w-full">
           {activeIndex > 0 && (
             <button
               onClick={() => scroll("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-1 bg-[#14141E]/50 hover:cursor-pointer hover:bg-[#cc5456]"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-1 bg-[#0d0d11]/50 hover:cursor-pointer hover:bg-[#E05D5D]"
             >
               <Image src={ChevronLeft} alt="Left" width={48} height={48} />
             </button>
@@ -73,7 +73,7 @@ export default function SpecifiedProjectContent({
           {activeIndex < selectedProject.images.length - 1 && (
             <button
               onClick={() => scroll("right")}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-1 bg-[#14141E]/50 hover:cursor-pointer hover:bg-[#cc5456]"
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-1 bg-[#0d0d11]/50 hover:cursor-pointer hover:bg-[#E05D5D]"
             >
               <Image src={ChevronRight} alt="Right" width={48} height={48} />
             </button>
@@ -109,14 +109,14 @@ export default function SpecifiedProjectContent({
       <div className="flex flex-col gap-12 items-start">
         <h1 className="text-5xl font-medium">{selectedProject.title}</h1>
         {selectedProject.detailedDescription.map((para, i) => (
-          <p key={i} className="text-3xl leading-10">
+          <p key={i} className="text-3xl leading-14 text-[#B2B8C2]">
             {para}
           </p>
         ))}
 
         <TechList techs={selectedProject.techStack} />
 
-        <p className="text-3xl leading-10">
+        <p className="text-3xl leading-14 text-[#B2B8C2]">
           {`Check out the relevant links below to explore the project further:`}
         </p>
 
@@ -126,7 +126,7 @@ export default function SpecifiedProjectContent({
               href={selectedProject.githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#0D0D16] hover:cursor-pointer hover:bg-[#cc5456] hover:text-white text-3xl font-bold py-4 px-8"
+              className="bg-[#F8F8F8] text-[#08080C] hover:cursor-pointer hover:bg-[#E05D5D] hover:text-[#F8F8F8] text-3xl font-bold py-4 px-8"
             >
               GitHub
             </a>
@@ -136,7 +136,7 @@ export default function SpecifiedProjectContent({
               href={selectedProject.figmaLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#0D0D16] hover:cursor-pointer hover:bg-[#cc5456] hover:text-white text-3xl font-bold py-4 px-8"
+              className="bg-[#F8F8F8] text-[#08080C] hover:cursor-pointer hover:bg-[#E05D5D] hover:text-[#F8F8F8] text-3xl font-bold py-4 px-8"
             >
               Figma
             </a>
@@ -146,7 +146,7 @@ export default function SpecifiedProjectContent({
               href={selectedProject.siteLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#0D0D16] hover:cursor-pointer hover:bg-[#cc5456] hover:text-white text-3xl font-bold py-4 px-8"
+              className="bg-[#F8F8F8] text-[#08080C] hover:cursor-pointer hover:bg-[#E05D5D] hover:text-[#F8F8F8] text-3xl font-bold py-4 px-8"
             >
               Live Site
             </a>

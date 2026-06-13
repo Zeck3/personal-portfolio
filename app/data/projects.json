@@ -1,10 +1,10 @@
 [
   {
     "title": "uCAP",
-    "shortDescription": "A Web App for Class Records and Course Outcome Assessments.",
+    "shortDescription": "A Web App for Class Records and COAs.",
     "detailedDescription": [
-      "uCAP, or University Course Assessment Portal, is a web application that integrates class records with Course Outcome Assessments (COA) into a single platform, featuring NLP-driven CO–PO mapping as decision support for faculty. It is designed primarily for USTP faculty who face challenges managing class records and COAs across separate spreadsheets and manual data transfers.",
-      "My main responsibilities for this project included front-end development, back-end development, and database design. I designed a user-friendly interface tailored for faculty, aligned with USTP branding and colors. I also designed and implemented RESTful APIs to serve the frontend, and handled data serialization and business logic for six distinct user roles. Additionally, I worked on database design and implemented a PDF data extraction feature to automatically retrieve Course Outcomes (COs) from course syllabi. Since the project involves heavy data processing, I optimized queries, requests, and responses across both the frontend and backend to ensure overall responsiveness. My roles overlapped across these areas to support the successful completion of the capstone project.",
+      "uCAP, or University Course Assessment Portal, is a web application that combines class records and Course Outcome Assessments (COA) into one platform. It is designed for USTP instructors to eliminate the need for separate spreadsheets and manual processes.",
+      "My main responsibilities include front-end development, with contributions to back-end development and database design. Designed a faculty-focused UI aligned with USTP branding. Developed RESTful APIs and handled data management for six user roles. Also implemented a PDF extraction feature for course syllabi. Then optimized both front-end and back-end performance to ensure efficient and responsive data processing.",
       "Here is the Tech Stack used in this project:"
     ],
     "techStack": [
@@ -28,8 +28,8 @@
     "title": "uTrace",
     "shortDescription": "A Mobile App for Campus Navigation.",
     "detailedDescription": [
-      "uTrace, or University Trace, is a mobile application for campus navigation designed primarily for students, personnel, and visitors, who are unfamiliar with building routes and locations. It addresses the common problem of having to ask others for directions and getting confused in the way.",
-      "My main responsibilities for this project include front-end development and designing an intuitive, user-friendly interface for the mobile application, featuring a custom map design aligned with USTP branding and colors. I successfully integrated free map APIs, such as Leaflet.js, into the application and implemented geolocation and pathfinding functionality.",
+      "uTrace, or University Trace, is a mobile application for campus navigation designed primarily for students, personnel, and visitors, who are unfamiliar with building routes and locations.",
+      "My main responsibilities for this project include front-end development and designing an intuitive, user-friendly interface, featuring a custom map design. Integrated Leaflet.js map API and implemented geolocation and pathfinding functionality.",
       "Here is the Tech Stack used in this project:"
     ],
     "techStack": [
@@ -45,6 +45,88 @@
       "/images/utrace_image_1.png",
       "/images/utrace_image_2.png",
       "/images/utrace_image_3.png"
+    ]
+  },
+  {
+    "title": "HR System",
+    "shortDescription": "A Web App UI Design for HRIS.",
+    "detailedDescription": [
+      "The HR System is a task created for leave management for employees. It is only focused on one task flow for leave requests.",
+      "My main responsibilities for this project include UI/UX design, from analyzing the problem, defining user personas and task flows to creating low-, mid-, and high-fidelity interfaces.",
+      "Here are the Tools used in this project:"
+    ],
+    "techStack": ["Figma"],
+    "githubLink": null,
+    "figmaLink": "https://www.figma.com/design/agJH86v3k1IuvolJqvmQZH/HR-System?node-id=0-1&p=f&t=iFA1FHCXdQ8TtZcQ-0",
+    "siteLink": null,
+    "images": ["/images/hrsystem_image_1.png", "/images/hrsystem_image_2.png"]
+  },
+  {
+    "title": "YAHSHUA Compass",
+    "shortDescription": "A Brand Design for an Internship Management System.",
+    "detailedDescription": [
+      "YAHSHUA Compass is a project for an internship management system. It is designed to alleviate pain points experienced by the supervisors handling internships at YAHSHUA.",
+      "My main responsibilities for this project include requirements analysis and end-to-end brand design for Yahshua Compass, including visual identity, design guidelines, typography, color system, and logo.",
+      "Here are the Tools used in this project:"
+    ],
+    "techStack": ["Figma"],
+    "githubLink": null,
+    "figmaLink": "https://www.figma.com/design/GX1hgqShweb8g8LJfDCW2h/YAHSHUA-ECP-Compass?node-id=0-1&p=f&t=LC3X1S3XHjPLBm4j-0",
+    "siteLink": null,
+    "images": ["/images/compass_image_1.png", "/images/compass_image_2.png"]
+  },
+  {
+    "title": "Onotes",
+    "shortDescription": "A Web App UI Design for Note-Taking.",
+    "detailedDescription": [
+      "Onotes is a web application designed for efficient and simplified note-taking. This project is insipired from QuickNotes.",
+      "My main responsibilities include UI/UX design and front-end development, with a focus on implementing a browser-only storage for notes, without the need for a backend or database.",
+      "Here are the Tools used in this project:"
+    ],
+    "techStack": ["Figma"],
+    "githubLink": null,
+    "figmaLink": "https://www.figma.com/design/mt5BEGw4fpA20GpJBRtIMu/ONotes?node-id=0-1&t=3GgRoCeRvcN0GoEL-1",
+    "siteLink": null,
+    "images": [
+      "/images/onotes_image_1.png",
+      "/images/onotes_image_2.png",
+      "/images/onotes_image_3.png"
+    ]
+  },
+  {
+    "title": "BarakoCafé",
+    "shortDescription": "An eCommerce Website for Coffee Shop.",
+    "detailedDescription": [
+      "BarakoCafé is an eCommerce website with the theme for a nonexistent coffee shop. It is designed and developed primarily to operate as a platform for selling coffee and related products.",
+      "My main responsibilities include front-end development and UI/UX design only, excluding back-end and database work. Which means no functional capabilities like an actual eCommerce platform. Built while learning web development, focusing on a visually appealing, user-friendly interface aligned with the BarakoCafé theme. Implemented responsive design for compatibility across devices and screen sizes.",
+      "Here is the Tech Stack used in this project:"
+    ],
+    "techStack": ["React.js", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/Zeck3/website-project-5",
+    "figmaLink": "https://www.figma.com/design/ABTmqjDYS7QK2z29oVVQkw/Coffee-Website?node-id=0-1&t=n7UqLcBUhPxrzPbU-1",
+    "siteLink": "https://barako.netlify.app/",
+    "images": [
+      "/images/barako_image_1.png",
+      "/images/barako_image_2.png",
+      "/images/barako_image_3.png"
+    ]
+  },
+  {
+    "title": "Yorushika",
+    "shortDescription": "A Playlist Website for Yorushika Fans.",
+    "detailedDescription": [
+      "Yorushika is a playlist website designed for fans such as myself. It allows browsing to some of the songs by the artist.",
+      "My main responsibilities include front-end development and UI/UX design only, excluding back-end and database work. Built while learning web development, focusing on a visually appealing, user-friendly interface aligned with the Yorushika theme. Also an exploration for video, audio, and captions embedding capabilities in web development.",
+      "Here is the Tech Stack used in this project:"
+    ],
+    "techStack": ["React.js", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/Zeck3/website-project-6.1",
+    "figmaLink": "https://www.figma.com/design/nHx93EwLvhSmE2nVDE5YRQ/Yorushika?node-id=0-1&p=f&t=THenIUIe4vCNzUzm-0",
+    "siteLink": "https://yorushika.netlify.app/",
+    "images": [
+      "/images/yorushika_image_1.png",
+      "/images/yorushika_image_2.png",
+      "/images/yorushika_image_3.png"
     ]
   }
 ]

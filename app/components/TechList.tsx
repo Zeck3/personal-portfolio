@@ -8,7 +8,7 @@ export default function TechList({ techs }: TechListProps) {
       {techs.map((tech) => (
         <span
           key={tech}
-          className="bg-[#14141E] text-white text-3xl font-bold py-4 px-8"
+          className="bg-[#0d0d11] text-[#F8F8F8] text-3xl font-bold py-4 px-8"
         >
           {tech}
         </span>

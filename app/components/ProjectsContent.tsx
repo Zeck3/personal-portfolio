@@ -28,14 +28,14 @@ export default function ProjectsContent({
         />
       ))}
 
-      <p className="text-3xl leading-10">
+      <p className="text-3xl leading-14 text-[#B2B8C2]">
         {`Projects are coming soon! In the meantime, you can check out my GitHub for more of my work: `}
       </p>
       <a
         href={"https://github.com/Zeck3"}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-white text-[#0D0D16] hover:cursor-pointer hover:bg-[#cc5456] hover:text-white text-3xl font-bold py-4 px-8"
+        className="bg-[#F8F8F8] text-[#08080C] hover:cursor-pointer hover:bg-[#E05D5D] hover:text-[#F8F8F8] text-3xl font-bold py-4 px-8"
       >
         {`Visit Neil's GitHub`}
       </a>

@@ -5,12 +5,12 @@
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
-  background: #14141e;
+  background: #0d0d11;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background-color: white;
-  border: 2px solid white;
+  background-color: #f8f8f8;
+  border: 2px solid #f8f8f8;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
@@ -25,4 +25,26 @@
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.grid-bg {
+  width: 100%;
+  height: 100%;
+
+  background-image:
+    linear-gradient(#ffffff10 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff10 1px, transparent 1px);
+
+  background-size: 60px 60px;
+
+  animation: gridMove 12s linear infinite;
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
 }

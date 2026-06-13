@@ -27,15 +27,15 @@ export default function SidePanel({
 
   return (
     <div
-      className={`fixed top-0 right-0 flex flex-col bg-[#0D0D16] transform transition-transform duration-300 z-10
+      className={`fixed top-0 right-0 flex flex-col bg-[#08080C] transform transition-transform duration-300 z-10
         h-full
         w-full lg:w-[calc(100vw-24rem)]
         ${open ? "translate-x-0" : "translate-x-full"}`}
     >
-      <div className="h-48 flex flex-row gap-12 px-16 xl:px-32 items-start pt-24 bg-[#14141E] transition-all duration-300 ease-in-out">
+      <div className="h-48 flex flex-row gap-12 px-16 xl:px-32 items-start pt-24 bg-[#0d0d11] transition-all duration-300 ease-in-out">
         <button
           onClick={onClose}
-          className="hover:cursor-pointer hover:bg-[#cc5456]"
+          className="hover:cursor-pointer hover:bg-[#E05D5D]"
         >
           <Image src={ChevronLeft} alt="Close" width={48} height={48} />
         </button>
@@ -48,7 +48,7 @@ export default function SidePanel({
         {children}
       </div>
       <div
-        className="h-32 flex flex-col justify-center bg-[#14141E] px-16 
+        className="h-32 flex flex-col justify-center bg-[#0d0d11] px-16 
              lg:hidden transition-all duration-300 ease-in-out"
       >
         <p className="text-2xl">© 2026 Neil Dinglasa</p>
