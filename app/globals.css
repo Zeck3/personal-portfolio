@@ -36,7 +36,6 @@
     linear-gradient(90deg, #ffffff10 1px, transparent 1px);
 
   background-size: 60px 60px;
-
   animation: gridMove 12s linear infinite;
 }
 

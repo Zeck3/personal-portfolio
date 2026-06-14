@@ -36,6 +36,8 @@ export default function SidePanel({
         <button
           onClick={onClose}
           className="hover:cursor-pointer hover:bg-[#E05D5D]"
+          title="Close"
+          aria-label="Close"
         >
           <Image src={ChevronLeft} alt="Close" width={48} height={48} />
         </button>

@@ -33,10 +33,10 @@ export default function ProjectCard({
 
   return (
     <button
-      className="flex flex-none flex-col text-left 2xl:flex-row justify-center 2xl:items-center w-full overflow-hidden transition-shadow duration-300 hover:bg-[#0D0D11] hover:cursor-pointer"
+      className="group flex flex-none flex-col text-left 2xl:flex-row justify-center 2xl:items-center w-full overflow-hidden transition-shadow duration-300 hover:bg-[#0D0D11] hover:cursor-pointer"
       onClick={onClick}
     >
-      <div className="relative aspect-video 2xl:h-64 flex flex-col justify-between p-4 bg-[#0d0d11] overflow-hidden group">
+      <div className="relative aspect-video 2xl:h-64 flex flex-col justify-between p-4 bg-[#0d0d11] overflow-hidden">
         {image && (
           <Image
             src={image}

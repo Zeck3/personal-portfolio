@@ -65,6 +65,8 @@ export default function SpecifiedProjectContent({
             <button
               onClick={() => scroll("left")}
               className="absolute left-0 top-1/2 -translate-y-1/2 z-1 bg-[#0d0d11]/50 hover:cursor-pointer hover:bg-[#E05D5D]"
+              title="Previous"
+              aria-label="Previous"
             >
               <Image src={ChevronLeft} alt="Left" width={48} height={48} />
             </button>
@@ -74,6 +76,8 @@ export default function SpecifiedProjectContent({
             <button
               onClick={() => scroll("right")}
               className="absolute right-0 top-1/2 -translate-y-1/2 z-1 bg-[#0d0d11]/50 hover:cursor-pointer hover:bg-[#E05D5D]"
+              title="Next"
+              aria-label="Next"
             >
               <Image src={ChevronRight} alt="Right" width={48} height={48} />
             </button>
@@ -95,6 +99,8 @@ export default function SpecifiedProjectContent({
                     alt={`project-${i}`}
                     fill
                     sizes="75vw"
+                    priority={i === 0}
+                    loading={i === 0 ? "eager" : "lazy"}
                     className={`object-cover transition-all duration-300 ${
                       isActive ? "opacity-100" : "opacity-40"
                     }`}
