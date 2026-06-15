@@ -35,6 +35,8 @@ export default function ProjectCard({
     <button
       className="group flex flex-none flex-col text-left 2xl:flex-row justify-center 2xl:items-center w-full overflow-hidden transition-shadow duration-300 hover:bg-[#0D0D11] hover:cursor-pointer"
       onClick={onClick}
+      title={"View Project: " + title}
+      aria-label="Open Project Details"
     >
       <div className="relative aspect-video 2xl:h-64 flex flex-col justify-between p-4 bg-[#0d0d11] overflow-hidden">
         {image && (
@@ -42,14 +44,11 @@ export default function ProjectCard({
             src={image}
             alt={title}
             fill
-            className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 z-1"
-            sizes="(max-width: 768px) 100vw, 
-             (max-width: 1280px) 50vw, 
-             33vw"
+            className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-102 z-1 aspect-video"
+            sizes="50vw"
             priority
           />
-        )}
-
+        )}n
       </div>
 
       <div className="flex-1 p-0 py-8 2xl:px-8 2xl:py-4 gap-4 flex flex-col justify-center">

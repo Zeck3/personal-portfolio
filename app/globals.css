@@ -32,8 +32,8 @@
   height: 100%;
 
   background-image:
-    linear-gradient(#ffffff10 1px, transparent 1px),
-    linear-gradient(90deg, #ffffff10 1px, transparent 1px);
+    linear-gradient(#ffffff25 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff25 1px, transparent 1px);
 
   background-size: 60px 60px;
   animation: gridMove 12s linear infinite;

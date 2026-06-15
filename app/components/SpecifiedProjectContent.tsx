@@ -99,10 +99,8 @@ export default function SpecifiedProjectContent({
                     alt={`project-${i}`}
                     fill
                     sizes="75vw"
-                    priority={i === 0}
-                    loading={i === 0 ? "eager" : "lazy"}
                     className={`object-cover transition-all duration-300 ${
-                      isActive ? "opacity-100" : "opacity-40"
+                      isActive ? "opacity-100" : "opacity-60"
                     }`}
                   />
                 </div>

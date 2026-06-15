@@ -19,9 +19,9 @@
     "figmaLink": "https://www.figma.com/design/H4DeFbtfatFR35d2ssLNAJ/UCAP-Design-System?node-id=0-1&p=f&t=nDQtr6JBdN7NIRlX-0",
     "siteLink": null,
     "images": [
-      "/images/ucap_image_1.png",
-      "/images/ucap_image_2.png",
-      "/images/ucap_image_3.png"
+      "/images/ucap_image_1.webp",
+      "/images/ucap_image_2.webp",
+      "/images/ucap_image_3.webp"
     ]
   },
   {
@@ -42,9 +42,10 @@
     "figmaLink": "https://www.figma.com/design/r0fSUoF4juV0EP3Wi04QTF/uTrace-Design-System?node-id=0-1&p=f&t=JbsTIIlzWiL1UHxN-0",
     "siteLink": null,
     "images": [
-      "/images/utrace_image_1.png",
-      "/images/utrace_image_2.png",
-      "/images/utrace_image_3.png"
+      "/images/utrace_image_1.webp",
+      "/images/utrace_image_2.webp",
+      "/images/utrace_image_3.webp",
+      "/images/utrace_image_4.webp"
     ]
   },
   {
@@ -59,7 +60,11 @@
     "githubLink": null,
     "figmaLink": "https://www.figma.com/design/agJH86v3k1IuvolJqvmQZH/HR-System?node-id=0-1&p=f&t=iFA1FHCXdQ8TtZcQ-0",
     "siteLink": null,
-    "images": ["/images/hrsystem_image_1.png", "/images/hrsystem_image_2.png"]
+    "images": [
+      "/images/hrsystem_image_1.webp",
+      "/images/hrsystem_image_2.webp",
+      "/images/hrsystem_image_3.webp"
+    ]
   },
   {
     "title": "YAHSHUA Compass",
@@ -73,7 +78,11 @@
     "githubLink": null,
     "figmaLink": "https://www.figma.com/design/GX1hgqShweb8g8LJfDCW2h/YAHSHUA-ECP-Compass?node-id=0-1&p=f&t=LC3X1S3XHjPLBm4j-0",
     "siteLink": null,
-    "images": ["/images/compass_image_1.png", "/images/compass_image_2.png"]
+    "images": [
+      "/images/compass_image_1.webp",
+      "/images/compass_image_2.webp",
+      "/images/compass_image_3.webp"
+    ]
   },
   {
     "title": "Onotes",
@@ -88,9 +97,8 @@
     "figmaLink": "https://www.figma.com/design/mt5BEGw4fpA20GpJBRtIMu/ONotes?node-id=0-1&t=3GgRoCeRvcN0GoEL-1",
     "siteLink": null,
     "images": [
-      "/images/onotes_image_1.png",
-      "/images/onotes_image_2.png",
-      "/images/onotes_image_3.png"
+      "/images/onotes_image_1.webp",
+      "/images/onotes_image_2.webp"
     ]
   },
   {
@@ -106,9 +114,9 @@
     "figmaLink": "https://www.figma.com/design/ABTmqjDYS7QK2z29oVVQkw/Coffee-Website?node-id=0-1&t=n7UqLcBUhPxrzPbU-1",
     "siteLink": "https://barako.netlify.app/",
     "images": [
-      "/images/barako_image_1.png",
-      "/images/barako_image_2.png",
-      "/images/barako_image_3.png"
+      "/images/barako_image_1.webp",
+      "/images/barako_image_2.webp",
+      "/images/barako_image_3.webp"
     ]
   },
   {
@@ -124,9 +132,9 @@
     "figmaLink": "https://www.figma.com/design/nHx93EwLvhSmE2nVDE5YRQ/Yorushika?node-id=0-1&p=f&t=THenIUIe4vCNzUzm-0",
     "siteLink": "https://yorushika.netlify.app/",
     "images": [
-      "/images/yorushika_image_1.png",
-      "/images/yorushika_image_2.png",
-      "/images/yorushika_image_3.png"
+      "/images/yorushika_image_1.webp",
+      "/images/yorushika_image_2.webp",
+      "/images/yorushika_image_3.webp"
     ]
   }
 ]
