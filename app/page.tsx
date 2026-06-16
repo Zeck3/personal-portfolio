@@ -1,12 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import SidePanel from "./components/SidePanel";
 import projects from "./data/projects.json";
-import AboutMeContent from "./components/AboutMeContent";
-import SpecifiedProjectContent from "./components/SpecifiedProjectContent";
 import { Project } from "./types/project";
-import ProjectsContent from "./components/ProjectsContent";
+
+const AboutMeContent = dynamic(() => import("./components/AboutMeContent"));
+const ProjectsContent = dynamic(() => import("./components/ProjectsContent"));
+const SpecifiedProjectContent = dynamic(
+  () => import("./components/SpecifiedProjectContent"),
+);
 
 export default function Main() {
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -22,7 +26,6 @@ export default function Main() {
   return (
     <div className="flex flex-col h-screen bg-[#08080c] text-[#F8F8F8]">
       <div className="relative flex flex-col flex-1 overflow-hidden">
-        
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
           <div className="grid-bg w-full h-full" />
         </div>

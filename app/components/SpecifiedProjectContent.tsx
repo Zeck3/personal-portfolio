@@ -37,9 +37,10 @@ export default function SpecifiedProjectContent({
 
     const targetChild = children[newIndex];
     if (targetChild) {
-      scrollRef.current.scrollTo({
-        left: targetChild.offsetLeft,
+      targetChild.scrollIntoView({
         behavior: "smooth",
+        block: "nearest",
+        inline: "center",
       });
     }
 
